@@ -133,9 +133,9 @@ args:
   l1_ws_url: ws://el-1-geth-lighthouse:8546
   # https://github.com/ethpandaops/ethereum-package/tree/main?tab=readme-ov-file#configuration
   l1_additional_services: [
-  # blockscout, # block explorer
-  # dora, # beaconchain explorer
-  # el_forkmon, # fork monitor tool
+  blockscout, # block explorer
+  dora, # beaconchain explorer
+  el_forkmon, # fork monitor tool
   ]
   l1_preset: minimal
   l1_seconds_per_slot: 1
